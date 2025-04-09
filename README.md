@@ -33,6 +33,10 @@ This project predicts both the **class** of an emoji and its **location** using 
           'box_out': IoU(name='iou')
       }
   )
+
+---
+
+
 ## 🔍 Output Visualization
 When testing the model, the visualization uses the following color-coding:
 
@@ -43,8 +47,8 @@ When testing the model, the visualization uses the following color-coding:
 - **Class Labels**:
   - ✅ Green label = Correct classification
   - ❌ Red label = Incorrect classification
- 
-# 🚀 Emoji Detection & Classification
+
+---
 
 ## How to Run
 
@@ -66,6 +70,8 @@ jupyter notebook train.ipynb
 jupyter notebook test.ipynb
 ```
 
+---
+
 ## 🔧 Requirements
 - Python 3.6+
 
@@ -73,15 +79,21 @@ jupyter notebook test.ipynb
 
 - Jupyter Notebook
 
+---
+
 ## 📊 Custom IoU Metric
 Includes a custom tf.keras.metrics.Metric implementation to track bounding box overlap performance across batches.
+
+---
 
 ## 🔮 Future Improvements
 - Detect multiple emojis per image
 - Add data augmentation
 - Train on larger, real-world datasets
 - Use YOLO or SSD for real-time detection
-  
+
+---
+
 ## 📌 Dependencies
 TensorFlow
 
